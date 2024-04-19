@@ -1,23 +1,17 @@
 #include <iostream>;
 #include <Windows.h>;
 using namespace std;
-
 int main() {
-	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleTextAttribute(hConsole, 0x04);
-	cout << "Every" << endl;
-	SetConsoleTextAttribute(hConsole, 0x0C);
-	cout << "\tHunter" << endl;
-	SetConsoleTextAttribute(hConsole, 0x0E);
-	cout << "\t\tWants" << endl;
-	SetConsoleTextAttribute(hConsole, 0x0A);
-	cout << "\t\t\tTo know" << endl;
-	SetConsoleTextAttribute(hConsole, 0x09);
-	cout << "\t\t\t\tWhere" << endl;
-	SetConsoleTextAttribute(hConsole, 0x01);
-	cout << "\t\t\t\t\tSits" << endl;
-	SetConsoleTextAttribute(hConsole, 0x05);
-	cout << "\t\t\t\t\t\tPheasant" << endl;
-	SetConsoleTextAttribute(hConsole, 0x0F);
-	return 0;
+	cout << "\n\tThey take me away from (take me away from)"
+		"\n\tThe strangest places (strangest places)"
+		"\n\tSweet Danny and Lisa (sweet Danny and Lisa)"
+		"\n\tThey take me away from"
+		"\n\tThey take me away from"
+		"\n\tThe strangest places"
+		"\n\tSweet Danny and Lisa"
+		"\n\tThey take me away from\n"
+		"\n\tHey man, look at me rockin' out, I'm on the radio"
+		"\n\tHey man, look at me rockin' out, I'm on the video"
+		"\n\tWith Danny and Lisa"
+		"\n\n\tSystem Of A Down - Radio/Video" << endl;
 }
