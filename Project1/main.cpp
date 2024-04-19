@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleTextAttribute(hConsole, 0x04);
+	SetConsoleTextAttribute(hConsole, 0x04); //
 	cout << "Every" << endl;
-	SetConsoleTextAttribute(hConsole, 0x0C);
+	SetConsoleTextAttribute(hConsole, 0x0C); //
 	cout << "\tHunter" << endl;
 	SetConsoleTextAttribute(hConsole, 0x0E);
 	cout << "\t\tWants" << endl;
